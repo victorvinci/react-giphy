@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from '../../assets/logos/logo.svg';
-import './App.scss';
+import React, { Component } from 'react';
+import giphy from 'giphy-api';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import SearchBar from '../SearchBar/searchBar';
+import Gif from '../Gif/gif';
+import GifList from '../GifList/gifList';
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      gifs: [],
+      selectedGifId: "h9KtiB6DgiS2s"
+    };
+  }
+
+  search = (query) => {
+    giphy('pDErXezbEJ56b0ySaZY0NAh1A3MxUTDm').search({
+      q: query,
+      rating: 'g',
+      limit: 10
+    }, (error, result) => {
+      this.setState({
+        gifs: result.data
+      });
+    });
+  }
+
+  selectGif = (id) => {
+    this.setState({
+      selectedGifId: id
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <div className="left-scene">
+          <SearchBar searchFunction={this.search} />
+          <div className="selected-gif">
+            <Gif id={this.state.selectedGifId} />
+          </div>
+        </div>
+        <div className="right-scene">
+          <GifList gifs={this.state.gifs} selectGif={this.selectGif} />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
