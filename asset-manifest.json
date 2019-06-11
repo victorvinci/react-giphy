@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/testing-create-react-app/static/css/main.82f39be1.chunk.css",
-    "main.js": "/testing-create-react-app/static/js/main.815306e5.chunk.js",
-    "main.js.map": "/testing-create-react-app/static/js/main.815306e5.chunk.js.map",
-    "runtime~main.js": "/testing-create-react-app/static/js/runtime~main.5e870016.js",
-    "runtime~main.js.map": "/testing-create-react-app/static/js/runtime~main.5e870016.js.map",
-    "static/js/2.b53e5811.chunk.js": "/testing-create-react-app/static/js/2.b53e5811.chunk.js",
-    "static/js/2.b53e5811.chunk.js.map": "/testing-create-react-app/static/js/2.b53e5811.chunk.js.map",
-    "index.html": "/testing-create-react-app/index.html",
-    "precache-manifest.a189cbe23882f19e7e5a0ca20bd0a0d5.js": "/testing-create-react-app/precache-manifest.a189cbe23882f19e7e5a0ca20bd0a0d5.js",
-    "service-worker.js": "/testing-create-react-app/service-worker.js",
-    "static/css/main.82f39be1.chunk.css.map": "/testing-create-react-app/static/css/main.82f39be1.chunk.css.map"
+    "main.css": "/react-giphy/static/css/main.ec573061.chunk.css",
+    "main.js": "/react-giphy/static/js/main.1dbef674.chunk.js",
+    "main.js.map": "/react-giphy/static/js/main.1dbef674.chunk.js.map",
+    "runtime~main.js": "/react-giphy/static/js/runtime~main.31658196.js",
+    "runtime~main.js.map": "/react-giphy/static/js/runtime~main.31658196.js.map",
+    "static/js/2.b53e5811.chunk.js": "/react-giphy/static/js/2.b53e5811.chunk.js",
+    "static/js/2.b53e5811.chunk.js.map": "/react-giphy/static/js/2.b53e5811.chunk.js.map",
+    "index.html": "/react-giphy/index.html",
+    "precache-manifest.6ef494caf56c2bba856f8c201314f53b.js": "/react-giphy/precache-manifest.6ef494caf56c2bba856f8c201314f53b.js",
+    "service-worker.js": "/react-giphy/service-worker.js",
+    "static/css/main.ec573061.chunk.css.map": "/react-giphy/static/css/main.ec573061.chunk.css.map"
   }
 }
