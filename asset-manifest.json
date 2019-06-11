@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/testing-create-react-app/static/css/main.af269a4a.chunk.css",
-    "main.js": "/testing-create-react-app/static/js/main.f3ded1f9.chunk.js",
-    "main.js.map": "/testing-create-react-app/static/js/main.f3ded1f9.chunk.js.map",
+    "main.css": "/testing-create-react-app/static/css/main.82f39be1.chunk.css",
+    "main.js": "/testing-create-react-app/static/js/main.815306e5.chunk.js",
+    "main.js.map": "/testing-create-react-app/static/js/main.815306e5.chunk.js.map",
     "runtime~main.js": "/testing-create-react-app/static/js/runtime~main.5e870016.js",
     "runtime~main.js.map": "/testing-create-react-app/static/js/runtime~main.5e870016.js.map",
-    "static/js/2.b41502e9.chunk.js": "/testing-create-react-app/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/testing-create-react-app/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.b53e5811.chunk.js": "/testing-create-react-app/static/js/2.b53e5811.chunk.js",
+    "static/js/2.b53e5811.chunk.js.map": "/testing-create-react-app/static/js/2.b53e5811.chunk.js.map",
     "index.html": "/testing-create-react-app/index.html",
-    "precache-manifest.c5f5ab8062038851167880baf5dadad0.js": "/testing-create-react-app/precache-manifest.c5f5ab8062038851167880baf5dadad0.js",
+    "precache-manifest.a189cbe23882f19e7e5a0ca20bd0a0d5.js": "/testing-create-react-app/precache-manifest.a189cbe23882f19e7e5a0ca20bd0a0d5.js",
     "service-worker.js": "/testing-create-react-app/service-worker.js",
-    "static/css/main.af269a4a.chunk.css.map": "/testing-create-react-app/static/css/main.af269a4a.chunk.css.map",
-    "static/media/logo.svg": "/testing-create-react-app/static/media/logo.5d5d9eef.svg"
+    "static/css/main.82f39be1.chunk.css.map": "/testing-create-react-app/static/css/main.82f39be1.chunk.css.map"
   }
 }
